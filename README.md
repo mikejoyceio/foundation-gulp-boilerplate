@@ -63,7 +63,7 @@ $ gulp <task>
 
 Further information and documentation is avaiable [here](https://github.com/gulpjs/gulp/blob/master/docs/README.md#articles).
 
-##### Build
+###### Build
 
 Concatenate and minify CSS and JavaScript:
 
@@ -71,7 +71,7 @@ Concatenate and minify CSS and JavaScript:
 $ gulp
 ```
 
-##### Watch
+###### Watch
 
 Watch JavaScript and Sass files for changes and concatenate / minify on the fly:
 
