@@ -55,7 +55,7 @@ Add the `gulp.js` file to the root of your project.
 
 Gulp works by running custom tasks.
 
-To run an individual task:
+###### Run an individual task
 
 ```
 $ gulp <task>
