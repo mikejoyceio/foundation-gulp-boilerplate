@@ -1,8 +1,8 @@
-#Frontend Boilerplate
+# Frontend Boilerplate
 
 A [Gulp](http://gulpjs.com/) boilerplate with customized frontend tasks.
 
-##Dependencies
+## Dependencies
 
 - [Node.js](https://nodejs.org/)
 - [Ruby](https://www.ruby-lang.org/en/)
@@ -10,7 +10,7 @@ A [Gulp](http://gulpjs.com/) boilerplate with customized frontend tasks.
 - [Bower](http://bower.io/)
 - [Compass](http://compass-style.org/)
 
-##Gulp Plugins
+## Gulp Plugins
 
 - [Gulp Compass](https://www.npmjs.com/package/gulp-compass)
 - [Gulp Concat](https://www.npmjs.com/package/gulp-concat)
@@ -21,25 +21,25 @@ A [Gulp](http://gulpjs.com/) boilerplate with customized frontend tasks.
 - [Gulp Plumber](https://www.npmjs.com/package/gulp-plumber)
 - [Gulp Uglify](https://www.npmjs.com/package/gulp-uglify)
 
-##Installation
+## Installation
 
-#####1. Install Dependencies:
+###### 1. Install Dependencies
 
 Make sure you have the dependencies listed above installed on your machine.
 
-#####2. Install Gulp globally:
+###### 2. Install Gulp globally
 
 ```
 $ npm install --global gulp
 ```
 
-#####3. Install Gulp in your project:
+###### 3. Install Gulp in your project
 
 ```
 $ npm install --save-dev gulp
 ```
 
-#####4. Install Gulp plugins:
+###### 4. Install Gulp plugins
 
 Add the `package.json` to the root of your project and run:
 
@@ -47,11 +47,11 @@ Add the `package.json` to the root of your project and run:
 $ sudo npm install
 ```
 
-#####5. Add Gulp 
+###### 5. Add Gulp 
 
 Add the `gulp.js` file to the root of your project.
 
-##Usage
+## Usage
 
 Gulp works by running custom tasks.
 
@@ -63,7 +63,7 @@ $ gulp <task>
 
 Further information and documentation is avaiable [here](https://github.com/gulpjs/gulp/blob/master/docs/README.md#articles).
 
-#####Build
+##### Build
 
 Concatenate and minify CSS and JavaScript:
 
@@ -71,7 +71,7 @@ Concatenate and minify CSS and JavaScript:
 $ gulp
 ```
 
-#####Watch
+##### Watch
 
 Watch JavaScript and Sass files for changes and concatenate / minify on the fly:
 
@@ -80,5 +80,3 @@ $ gulp watch
 ```
 
 Best used with the [livereload Chrome extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei).
-
-
