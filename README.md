@@ -61,7 +61,7 @@ To run an individual task:
 $ gulp <task>
 ```
 
-Further information and documentation is avaiable [here](https://github.com/gulpjs/gulp/blob/master/docs/README.md#articles).
+Further information and documentation is avaiable [here](https://github.com/gulpjs/gulp/blob/master/docs/README.md).
 
 ###### Build
 
