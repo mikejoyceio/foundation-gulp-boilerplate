@@ -1,82 +1,61 @@
-# Frontend Boilerplate
+# Foundation + Gulp Boilerplate
 
-A [Gulp](http://gulpjs.com/) boilerplate with customized frontend tasks.
+###### Overview
 
-## Dependencies
+A minimal [Foundation for Sites 6](https://foundation.zurb.com/sites.html) and [Gulp](https://gulpjs.com/) boilerplate.
 
-- [Node.js](https://nodejs.org/)
-- [Ruby](https://www.ruby-lang.org/en/)
-- [Sass](http://sass-lang.com/)
-- [Bower](http://bower.io/)
-- [Compass](http://compass-style.org/)
+## Getting Started
 
-## Gulp Plugins
-
-- [Gulp Compass](https://www.npmjs.com/package/gulp-compass)
-- [Gulp Concat](https://www.npmjs.com/package/gulp-concat)
-- [Gulp Filter](https://www.npmjs.com/package/gulp-filter)
-- [Gulp Live Reload](https://www.npmjs.com/package/gulp-livereload)
-- [Gulp Load Plugins](https://www.npmjs.com/package/gulp-load-plugins)
-- [Gulp Minify CSS](https://www.npmjs.com/package/gulp-minify-css)
-- [Gulp Plumber](https://www.npmjs.com/package/gulp-plumber)
-- [Gulp Uglify](https://www.npmjs.com/package/gulp-uglify)
-
-## Installation
-
-###### 1. Install Dependencies
-
-Make sure you have the dependencies listed above installed on your machine.
-
-###### 2. Install Gulp globally
+###### Clone
 
 ```
-$ npm install --global gulp
+$ git clone https://github.com/mikejoyceio/foundation-gulp-boilerplate
 ```
 
-###### 3. Install Gulp in your project
+###### Install Yarn
+
+Yarn can be installed through the [Homebrew package manager](https://brew.sh/). This will also install [Node.js](https://nodejs.org/) (which is required) if it is not already installed.
+
+Details installation instructions for all operating systems can be found [here](https://yarnpkg.com/en/docs/install)
+
+To make sure you have Yarn installed, run the following command to check the version:
 
 ```
-$ npm install --save-dev gulp
+$ yarn -v
 ```
 
-###### 4. Install Gulp plugins
-
-Add the `package.json` to the root of your project and run:
+###### Install Dependencies
 
 ```
-$ sudo npm install
+$ yarn install 
 ```
 
-###### 5. Add Gulp 
-
-Add the `gulp.js` file to the root of your project.
-
-## Usage
-
-Gulp works by running custom tasks.
-
-###### Run an individual task
+###### Run Gulp
 
 ```
-$ gulp <task>
+$ yarn run dev
 ```
 
-Further information and documentation is avaiable [here](https://github.com/gulpjs/gulp/blob/master/docs/README.md).
+## The Build
 
-###### Build
+[Gulp](https://gulpjs.com/) and takes care of a number of common frontend tasks.
 
-Concatenate and minify CSS and JavaScript:
-
-```
-$ gulp
-```
-
-###### Watch
-
-Watch JavaScript and Sass files for changes and concatenate / minify on the fly:
+###### Development
 
 ```
-$ gulp watch
+$ yarn run dev
 ```
 
-Best used with the [livereload Chrome extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei).
+###### Production 
+
+```
+$ yarn run prod
+```
+
+## Resources
+
+###### Documentation
+
+- [Foundation 6](https://foundation.zurb.com/sites/docs/)
+- [Gulp](https://gulpjs.com/)
+- [Sass](https://sass-lang.com/guide)
