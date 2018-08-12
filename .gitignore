@@ -1,3 +1,6 @@
-src/.sass-cache/
-src/vendor
+
+# Build directory
+dist
+
+# Dependencies
 node_modules
