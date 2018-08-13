@@ -14,7 +14,7 @@ $ git clone https://github.com/mikejoyceio/foundation-gulp-boilerplate
 
 ###### Install Yarn
 
-Yarn can be installed through the [Homebrew package manager](https://brew.sh/). This will also install [Node.js](https://nodejs.org/) (which is required) if it is not already installed.
+[Yarn](https://yarnpkg.com/) can be installed through the [Homebrew package manager](https://brew.sh/). This will also install [Node.js](https://nodejs.org/) (which is required) if it is not already installed.
 
 Details installation instructions for all operating systems can be found [here](https://yarnpkg.com/en/docs/install)
 
@@ -38,7 +38,7 @@ $ yarn run dev
 
 ## The Build
 
-[Gulp](https://gulpjs.com/) and takes care of a number of common frontend tasks.
+[Gulp](https://gulpjs.com/) takes care of a number of common frontend tasks.
 
 ###### Development
 
@@ -59,3 +59,4 @@ $ yarn run prod
 - [Foundation 6](https://foundation.zurb.com/sites/docs/)
 - [Gulp](https://gulpjs.com/)
 - [Sass](https://sass-lang.com/guide)
+- [Yarn](https://yarnpkg.com/)
